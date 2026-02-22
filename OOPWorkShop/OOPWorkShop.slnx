@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="OOPWorkShop.Backend/OOPWorkShop.Backend.csproj" Id="c494b159-f96b-4de3-b30b-92a82cfd8b2f" />
+  <Project Path="OOPWorkShop.Frontend/OOPWorkShop.Frontend.csproj" Id="24d8cf10-ffd1-4e3b-b9a4-7e3ebbbe9df8" />
+</Solution>
