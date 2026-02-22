@@ -2,16 +2,15 @@
 
 public class Time
 {
-    #region Fields
+    // Fields
 
     private int _hour;
     private int _minute;
     private int _second;
     private int _millisecond;
 
-    #endregion
 
-    #region Constructors (4 overloads + default)
+    // Constructors
 
     public Time() : this(0, 0, 0, 0) { }
 
@@ -29,9 +28,7 @@ public class Time
         Millisecond = millisecond;
     }
 
-    #endregion
-
-    #region Properties
+    // Properties
 
     public int Hour
     {
@@ -57,9 +54,7 @@ public class Time
         set => _millisecond = ValidMillisecond(value);
     }
 
-    #endregion
-
-    #region Validation Methods
+    // Validation Methods
 
     private int ValidHour(int value)
     {
@@ -89,9 +84,7 @@ public class Time
         return value;
     }
 
-    #endregion
-
-    #region Methods
+    // Methods
 
     public override string ToString()
     {
@@ -148,6 +141,4 @@ public class Time
 
         return new Time(hour, min, sec, ms);
     }
-
-    #endregion
 }
